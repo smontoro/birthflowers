@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Floriography</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container text-center mt-5 title">
+	<h1>What's your birth flower?</h1>
+	<input placeholder="type your birth month here" id="userInput">
+	<button  class="bg-primary" onclick="findSign()">click me</button>
+</div>
+
+<div class="container text-center">
+	<h1 id="flowerMonth" class="img-fluid"></h1>
+	<img src="img/jan.png" id="flowerImage">
+	<p id="flowerMeaning"></p>
+</div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
