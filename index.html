@@ -2,20 +2,31 @@
 <html>
 <head>
 	<title>Floriography</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
 </head>
 <body>
 
-<div class="container text-center mt-5 title">
-	<h1>What's your birth flower?</h1>
-	<input placeholder="type your birth month here" id="userInput">
-	<button  class="bg-primary" onclick="findSign()">click me</button>
-</div>
 
-<div class="container text-center">
-	<h1 id="flowerMonth" class="img-fluid"></h1>
-	<img src="img/jan.png" id="flowerImage">
-	<p id="flowerMeaning"></p>
+
+
+<header class="container text-center mt-5 title">
+	<h1 class="pb-3">What's your birth flower?</h1>
+	<input placeholder="type your birth month here" id="userInput">
+	<button  class="btn btn-light" onclick="findSign()">click me</button>
+</header>
+
+<div class="container mb-5">
+	<div class="row">
+		<div class="col-sm-6">
+			<img id="flowerImage" class="img-fluid pt-5 pl-5">
+		</div>
+		<div class="col-sm-6 my-auto meaning pr-5">
+			<h1 id="flower"></h1>
+			<p id="flowerMeaning" class="text-white"></p>
+		</div>
+	</div>
 </div>
 
 <script src="js/main.js"></script>

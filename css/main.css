@@ -1,0 +1,24 @@
+.title h1{
+	font-family: 'Kavivanar', cursive;
+	color: white;
+	font-size: 50px;
+}
+
+
+body {
+	background: url(../img/grass.jpg) center;
+}
+
+#flowerImage{
+	width: 60%;
+}
+
+.meaning {
+	font-size: 25px;
+}
+
+#flower {
+	color: #284D1F;
+}
+
+
