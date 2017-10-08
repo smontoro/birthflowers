@@ -19,6 +19,8 @@ body {
 
 #flower {
 	color: #284D1F;
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
 }
 
 input {
@@ -27,6 +29,11 @@ input {
 	text-align: center;
 }
 
+.meaning {
+	background: grey;
+	opacity: 0.9;
+	padding: 20px;
+}
 
 
 
