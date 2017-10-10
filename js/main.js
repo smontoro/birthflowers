@@ -62,7 +62,7 @@ var birthFlower = [
     },
 
         {
-        month: "Ooctober",
+        month: "october",
         flower: "Marigold",
         meaning: "Marigold or Calendula is the flower associated with October. For the Hindus, the month of October is associated with festivals like Dusshera and Diwali and Marigold, although a relatively recent introduced flower from the New World, has come to be an auspicious flower is part of religious ceremonies. However, in the English culture, marigold stands for sorrow and sympathy, perhaps derivative of its original symbolic association with death in the traditions of Mexico, as in the Day of the Dead, parallel to the Lily in Europe.",
         image: "img/oct.jpg"
@@ -76,7 +76,7 @@ var birthFlower = [
     },
 
         {
-        month: "Ddecember",
+        month: "december",
         flower: "Poinsettia",
         meaning: "These flowers are typically associated with Christmas. While considered by the ancient Aztecs to be symbols of purity, in today's language of flowers, red, white or pink poinsettias, the December birth flower, symbolize good cheer and success and are said to bring wishes of mirth and celebration.",
         image: "img/dec.jpg"
@@ -93,7 +93,8 @@ function findSign() {
 			document.getElementById("flower").textContent = birthFlower[i].flower
 			document.getElementById("flowerImage").src = birthFlower[i].image
 			document.getElementById("flowerMeaning").textContent = birthFlower[i].meaning
-            document.getElementById("meaning").classlist.add("meaning")
+            var meaningStyle = document.getElementById("meaning")
+            meaningStyle.className = "meaning-style"
 			return
 		}
 	}

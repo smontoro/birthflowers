@@ -26,9 +26,11 @@ input {
 	text-align: center;
 }
 
-.meaning {
+.meaning-style {
 	background: grey;
 	opacity: 0.9;
 	padding: 20px;
 	font-size: 25px;
+	width: 50%;
+	margin-top: 50px;
 }
