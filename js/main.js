@@ -93,10 +93,10 @@ function findSign() {
 			document.getElementById("flower").textContent = birthFlower[i].flower
 			document.getElementById("flowerImage").src = birthFlower[i].image
 			document.getElementById("flowerMeaning").textContent = birthFlower[i].meaning
+            document.getElementById("meaning").classlist.add("meaning")
 			return
 		}
 	}
 
 }
-
 

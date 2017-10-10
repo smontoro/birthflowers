@@ -13,9 +13,6 @@ body {
 	width: 60%;
 }
 
-.meaning {
-	font-size: 25px;
-}
 
 #flower {
 	color: #284D1F;
@@ -33,4 +30,5 @@ input {
 	background: grey;
 	opacity: 0.9;
 	padding: 20px;
+	font-size: 25px;
 }
